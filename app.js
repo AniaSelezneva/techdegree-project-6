@@ -7,6 +7,7 @@ const app = express();
 app.set('view engine', 'pug');
 
 app.use('/static', express.static('public'));
+app.use('/static/js/scripts.js', express.static('public'));
 
 app.get('/', (req, res) => {
     res.render('index', {projects}); 
@@ -26,8 +27,16 @@ app.get('/about', (req, res) => {
 });
 
 app.use((req, res, next) => {
+    console.error("This Page Doesn't Exist");
     const err = new Error ('Not Found');
     err.status = 404;
+    next(err);
+});
+
+app.use((req, res, next) => {
+    const err = new Error ('Something Went Wrong');
+    console.error("An Error Occured");
+    err.status = 500;
     next(err);
 });
 
