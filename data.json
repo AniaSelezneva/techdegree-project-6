@@ -1,38 +1,86 @@
-{ "projects": [
+{ "projects" : [
     { 
-    "id": ,
-    "project_name": ,
-    "description":  ,
-    "technologies": ,
-    "live_link": ,
-    "github_link": ,
-    "image_urls": 
+        "id": "0",
+        "project_name": "Project 1",
+        "description":  "This is an app that displays random quotes",
+        "technologies": [
+            "JavaScript",
+            "CSS",
+            "HTML"
+            ],
+        "live_link": "https://aniaselezneva.github.io/techdegree-project-1/",
+        "github_link": "https://github.com/AniaSelezneva/techdegree-project-1",
+        "image_urls": [
+            "../static/images/main1.jpg",
+            "../static/images/add2.jpg"
+        ]
     },
     { 
-    "id": ,
-    "project_name": ,
-    "description":  ,
-    "technologies": ,
-    "live_link": ,
-    "github_link": ,
-    "image_urls": 
+        "id": "1",
+        "project_name": "Project 2",
+        "description":  "Pagination app",
+        "technologies": [
+            "JavaScript",
+            "CSS",
+            "HTML"
+            ],
+        "live_link": "https://aniaselezneva.github.io/techdegree-project-2/",
+        "github_link": "https://github.com/AniaSelezneva/techdegree-project-2",
+        "image_urls": [
+            "../static/images/main2.jpg",
+            "../static/images/add2.jpg"
+        ]
     },
     { 
-    "id": ,
-    "project_name": ,
-    "description":  ,
-    "technologies": ,
-    "live_link": ,
-    "github_link": ,
-    "image_urls": 
+        "id": "2",
+        "project_name": "Project 3",
+        "description":  "Interactive registration form for a fictional conference",
+        "technologies": [
+            "JavaScript",
+            "jQuery",
+            "CSS",
+            "HTML"
+            ],
+        "live_link": "https://aniaselezneva.github.io/techdegree-project-3/",
+        "github_link": "https://github.com/AniaSelezneva/techdegree-project-3",
+        "image_urls": [
+            "../static/images/main3.jpg",
+            "../static/images/add3.jpg"
+        ]
     },
     { 
-        "id": ,
-        "project_name": ,
-        "description":  ,
-        "technologies": ,
-        "live_link": ,
-        "github_link": ,
-        "image_urls": 
+        "id": "3",
+        "project_name": "Project 4",
+        "description":  "A word guessing game: \"Phrase Hunter\"",
+        "technologies": [
+            "JavaScript",
+            "jQuery",
+            "CSS",
+            "HTML"
+            ],
+        "live_link": "https://aniaselezneva.github.io/techdegree-project-4/",
+        "github_link": "https://github.com/AniaSelezneva/techdegree-project-4",
+        "image_urls": [
+            "../static/images/main4.jpg",
+            "../static/images/add4.jpg"
+        ]
+    },
+    { 
+        "id": "4",
+        "project_name": "Project 5",
+        "description":  "App for employees to share contact information with each other",
+        "technologies": [
+            "JavaScript",
+            "jQuery",
+            "CSS",
+            "HTML",
+            "API"
+            ],
+        "live_link": "https://aniaselezneva.github.io/techdegree-project-5/",
+        "github_link": "https://github.com/AniaSelezneva/techdegree-project-5",
+        "image_urls": [
+            "./static/images/main5.jpg",
+            "../static/images/add5.jpg"
+        ]
     }
 ]}
