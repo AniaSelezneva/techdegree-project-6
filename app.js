@@ -15,11 +15,16 @@ app.get('/', (req, res) => {
 
 app.get('/project:id', (req, res) => {
     const { id } = req.params;
-    const { technologies } = projects[id];
-    res.render('project', {
-        project: projects[id], 
-        technologies
-    }); 
+    if ( id > projects.length) {
+        console.log(id);
+        res.redirect('/');
+    } else {
+        const { technologies } = projects[id];
+        res.render('project', {
+            project: projects[id], 
+            technologies
+        }); 
+    }
 });
 
 app.get('/about', (req, res) => {
