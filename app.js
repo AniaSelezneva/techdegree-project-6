@@ -16,7 +16,6 @@ app.get('/', (req, res) => {
 app.get('/project:id', (req, res) => {
     const { id } = req.params;
     if ( id > projects.length) {
-        console.log(id);
         res.redirect('/');
     } else {
         const { technologies } = projects[id];
