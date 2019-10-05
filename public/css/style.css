@@ -1,3 +1,6 @@
+body {
+  background-color:#edfaf5;
+}
 
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
@@ -147,4 +150,12 @@ a:hover{
 
 .portfolio-bio{
     line-height: 25px;
+}
+
+#my-info {
+  background-image: url('../images/background.jpg')
+}
+
+p.text-light{
+  color: black
 }
